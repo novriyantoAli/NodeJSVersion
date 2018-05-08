@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.ali.rhein.mvpbase.feature.splash.SplashScreenActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="150dp"
+            android:src="@drawable/hgilogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#3F51B5"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:text="HARVEST GORONTALO INDONESIA"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:indeterminate="true"
+            android:maxHeight="60dp"
+            android:minHeight="60dp"
+            android:minWidth="40dp"
+            android:maxWidth="40dp"
+            android:indeterminateDrawable="@drawable/progress_bar_style" />
+    </LinearLayout>
+
+
+</LinearLayout>

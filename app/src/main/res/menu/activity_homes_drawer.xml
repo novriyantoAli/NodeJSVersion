@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard"/>
+        <item
+            android:id="@+id/nav_sales_journey_plan"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Sales Journey Plan" />
+    </group>
+
+    <item android:title="Person">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_camera_front_black_24dp"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
