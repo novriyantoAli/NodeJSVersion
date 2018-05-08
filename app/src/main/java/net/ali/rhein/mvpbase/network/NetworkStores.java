@@ -26,6 +26,7 @@ import rx.Observable;
 
 public interface NetworkStores {
 
+    // coba kawan
     @FormUrlEncoded
     @POST("auth/login")
     Observable<LoginResponse> getLoginResponse(
